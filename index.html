@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="form-container">
+        <h1>Registration Form</h1>
+        <form onsubmit="return validateForm()">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <textarea id="message" placeholder="Address" rows="3" required></textarea>
+            <input type="text" id="contact" placeholder="Contact Number" required><br><br><br>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>

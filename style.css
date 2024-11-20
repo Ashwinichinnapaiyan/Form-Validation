@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIALcAxAMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAQIDBQT/xAAhEAEBAQADAQACAgMAAAAAAAAAAREhMUECEoHB8TJRcf/EABoBAAMBAQEBAAAAAAAAAAAAAAABAwIEBgX/xAAeEQEBAQEBAAIDAQAAAAAAAAAAAQIREgMhEzFBBP/aAAwDAQACEQMRAD8A0bjNFkfLpLoxO24E9TgLC0MpazpQ24ESNAUqyoExxdCAAlUBEAAA9UEgAHQXADqC4AenD8iVz/LSKcfS8R01qOcdPmscR3mNSrUAjwBKDhGmVlBVRCBitQIlIigAhYiwFQWAIhgBi0wVZyz0vTODVQdL2+D4+p7MdNnjh61K6bHot4l+3ZqVznS8+JuTWXWVpy+bfXTWXPqKipaGUtNSoA1K1GVgT03EoEyLEWBi1KsM5Vli6VBYOszaChdPSwAI6qyChJ+3l5O7cWWXq6Zv9Nfh7w67XrLtZb+mu/8AFhYyhqStcztdJvmGX1mxKtSraySkjrirgBKrCEWEnasVIpJ2rBI0XU7oiisdS1pBTAnNILiyBv8ALyCwwgqevklBQmPTzuv2l/01qT11vVdRZCdKGLV9KEYtR0saiLCRtVSLCS1SEIsKpWkaiEjNR1WlRqEnajUQJPVUJ0QMxYQkIXWdcrWJSLhId4gWKGvbzuPcOOe8L4s6dfXrKmcRZEakZ6naQaWDqOtMxqGLGf6jaXtRYE9VIsUhVLVX56UWJpWkWEWBK1FkFgrNh4SEWknaKkahI20+elwispatJEawDHqvLnv/AA8hJy1jqeztSNAEtUWRMaCOqjQQk7RYRSqOqsWJFY6nasWIshJ9FhAJ2/YBA1V0irIzUdWCetRcCVsP5WcTENJHX23BkJz8efIl7akMdT2dpFsFJO1CRrEgStFi4pVLVRZBYxUqoQJPihFoZsL2qJQz560YkWAt3ixpI0x1y29oQUJ6+zn9J9Z+PC9JaTOZytfPQkz0Ddn3+nxQwjUjpektTFFgY6mGKEzUWCwVOwgBMcWLEVms2JQpDkazhYIsKs6zIqztItrKOs9a9ajEq/JObeGlirhOK65eMlq3pi3klfil0aM2q1x1fifOsBZ9gD1QEABCxFgZoGgLysCDNjFnCotQ2p+lioM2J2VqDOro4xZWvF+byzDS51nWOx3lPycZTS8uK/4u10+vpz1kPy6vj+CYaGag4t4ZsICjrAAAAAAAAAFggAumoAcXRAUvMaELSK5aElWUuJ3ABRxnwFZtBxSY4CBt+QAzAAYAAAAAAAAAAAAAAAALqAJdABWFQAcAAb//2Q==");
+    background-image: no-repeat;
+    background-size: cover ;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+   }
+.form-container {
+    background: linear-gradient(to right, #25aed8,#0d6d85), #08cea3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+}
+h1{
+    margin-bottom: 20px;
+    color:rgb(102, 7, 102);
+}
+.form-container input, .form-container textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #8f8b8b;
+    border-radius: 5px;
+    background-color: rgb(207, 194, 194);
+}
+.form-container button {
+    width: 60%;
+    padding: 10px;
+    background: #055518;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.form-container button:hover {
+    background: #d64806;
+}
